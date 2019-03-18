@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="l2ex1.css">
+	<script type="text/javascript" src="l2ex1.js"></script>
+	<title></title>
+</head>
+<body onload="onload()">
+	<p id="myText" onclick="changeText()" title="Clique para alterar o texto">texto</p>
+	<form>
+		<input type="text" id="tf1" autofocus class="text-field" onkeypress="enterKey(event)" placeholder="Insira aqui seu CSS">
+		<input type="color" id="colorPicker" onchange="changeColor()" class="color-picker" value="#ffffff">
+		<input type="text" class="text-field" id="color" disabled>
+		<input type="button" id="btn1" onclick="addItem()" class="button" value="Aplicar estilo">
+		<input type="button" id="btn2" onclick="clearTheme()" class="button" value="Limpar estilo">
+	</form>
+	<br>
+	<br>
+	<table id="myTable"></table>
+</body>
+</html>

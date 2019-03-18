@@ -1,0 +1,37 @@
+.button {
+	background: #419b39;
+	color: white;
+	border-radius: 5px;
+	padding: 10px;
+	border: none;
+}
+
+.text-field {
+	border-radius: 5px;
+	padding: 8px;
+	border: 1px solid #cdcdcd;
+}
+
+.color-picker {
+	border-radius: 5px;
+	padding-bottom: 5px;
+	padding-top: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	border: 1px solid #cdcdcd;
+	background: #FFFFFF;
+}
+
+#color {
+	width: 80px;
+}
+
+#myStyle {
+	margin-left: 25px;
+	font-size: 18px;
+	font-family: arial;
+}
+
+#tf1 {
+	width: 300px;
+}
